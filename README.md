@@ -1,6 +1,6 @@
 # Hi-C QC in Docker
 
-[Phase Genomics](https://phasegenomics.github.io/) has a rich Hi-C quality control report. Here I put the [hic_qc.py](https://github.com/phasegenomics/hic_qc) in a container, and it is publically available via Docker Hub. 
+[Phase Genomics](https://phasegenomics.github.io/) has a rich Hi-C quality control report. This is a containerization of [hic_qc.py](https://github.com/phasegenomics/hic_qc) and it is publically available via Docker Hub. 
 
 
 ## Usage
