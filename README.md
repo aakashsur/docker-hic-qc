@@ -6,6 +6,9 @@
 ## Usage
 
 ```
+docker pull \
+  aakashsur/hic_qc
+
 docker run \
   --rm \
   --volume $PWD:/root/results \
