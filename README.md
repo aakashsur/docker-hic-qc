@@ -22,7 +22,7 @@ docker run \
 
 The `hic_qc.py` command has been placed in $PATH. Easiest way to run is to have everything in $PWD, i.e. the *name sorted* .bam file. The current local directory then gets mounted to a folder in the home directory of the container, which is /root/results. To get the options for `hic_qc.py` simply run `docker run --rm aakashsur/hic_qc hic_qc.py --help`. 
 
-For running in an HPC setting, where singularity is often the choice of containerization. 
+For running in an HPC setting, where singularity is often the choice of containerization -  
 
 ```
 singularity pull 
