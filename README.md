@@ -1,4 +1,4 @@
-[example workflow](https://github.com/aakashsur/docker-hic-qc/actions/workflows/continuous-integration.yml/badge.svg)
+![Build Badge](https://github.com/aakashsur/docker-hic-qc/actions/workflows/continuous-integration.yml/badge.svg)
 
 
 # Hi-C QC in Docker
