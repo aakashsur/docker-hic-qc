@@ -28,5 +28,5 @@ RUN cd ~ \
     && git clone https://github.com/phasegenomics/hic_qc.git \
     && ln -s /usr/bin/python3 /usr/bin/python \
     && ln -s /root/hic_qc/hic_qc.py /usr/bin/hic-qc \
-    && ln -s /root/hic_qc/collateral /usr/bin/collateral
+    && ln -s /root/hic_qc/collateral /usr/bin/collateral \
     && mkdir results
