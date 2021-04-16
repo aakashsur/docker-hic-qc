@@ -29,3 +29,4 @@ RUN cd ~ \
     && ln -s /usr/bin/python3 /usr/bin/python \
     && ln -s /root/hic_qc/hic_qc.py /usr/bin/hic-qc \
     && ln -s /root/hic_qc/collateral /usr/bin/collateral
+    && mkdir results
