@@ -27,6 +27,6 @@ RUN python3 -m pip install --upgrade \
 RUN cd ~ \
     && git clone https://github.com/phasegenomics/hic_qc.git \
     && ln -s /usr/bin/python3 /usr/bin/python \
-    && ln -s /root/hic_qc/hic_qc.py /usr/bin/hic-qc \
-    && ln -s /root/hic_qc/collateral /usr/bin/collateral \
-    && mkdir results
+    && ln -s /root/hic_qc/hic_qc.py /root/hic_qc/hic-qc  
+
+ENV PATH="${PATH}:/root/hic_qc"
