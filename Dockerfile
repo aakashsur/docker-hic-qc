@@ -24,9 +24,9 @@ RUN python3 -m pip install --upgrade \
         markdown && \
     python3 -m pip cache purge
 
-RUN cd ~ \
-    && git clone https://github.com/phasegenomics/hic_qc.git \
-    && ln -s /usr/bin/python3 /usr/bin/python \
-    && ln -s /root/hic_qc/hic_qc.py /root/hic_qc/hic-qc  
+RUN cd ~ && \
+    git clone https://github.com/phasegenomics/hic_qc.git && \
+    ln -s /usr/bin/python3 /usr/bin/python && \
+    ln -s /root/hic_qc/hic_qc.py /root/hic_qc/hic-qc  
 
 ENV PATH="${PATH}:/root/hic_qc"
