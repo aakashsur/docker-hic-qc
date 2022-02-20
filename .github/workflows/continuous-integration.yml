@@ -2,8 +2,8 @@ name: continuous-integration
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'Dockerfile'
 
 jobs:
   docker:
