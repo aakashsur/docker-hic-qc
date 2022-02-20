@@ -32,7 +32,7 @@ singularity pull
   
 singularity run \
     --bind $PWD:/root/results/ \
-    --workdir /root/results \
+    --home $PWD:/root/results/ \
     hic-qc_latest.sif \
     hic-qc \
     -b alignment.bam
